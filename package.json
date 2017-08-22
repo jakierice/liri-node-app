@@ -1,0 +1,32 @@
+{
+  "name": "liri-node-app",
+  "version": "1.0.0",
+  "description": "Basic text input node clone of Apple's Siri.",
+  "main": "liri.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jakierice/liri-node-app.git"
+  },
+  "keywords": [
+    "Node.js",
+    "Twitter",
+    "OMDB",
+    "Spotify",
+    "Personal",
+    "Assistant"
+  ],
+  "author": "Jakie W. Rice",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jakierice/liri-node-app/issues"
+  },
+  "homepage": "https://github.com/jakierice/liri-node-app#readme",
+  "dependencies": {
+    "node-spotify-api": "^1.0.7",
+    "request": "^2.81.0",
+    "twitter": "^1.7.1"
+  }
+}
